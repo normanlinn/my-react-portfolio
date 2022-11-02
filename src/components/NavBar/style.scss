@@ -1,0 +1,118 @@
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background-color: var(--selected-theme-nav-background-color);
+
+  &-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding: 0 20px;
+
+    &-logo {
+      color: var(--selected-theme-main-color);
+      cursor: pointer;
+      font-size: 2rem;
+      flex-grow: 1;
+    }
+
+    &-menu {
+      display: flex;
+      list-style: none;
+      text-align: center;
+
+      &-item {
+        line-height: 40px;
+        margin-right: 1.5rem;
+        font-size: 1.6rem;
+        text-transform: capitalize;
+        &::after {
+          content: '';
+          display: block;
+          height: 3px;
+          width: 0;
+          background: transparent;
+          transition: width 0.7s ease;
+        }
+
+        &:hover::after {
+          width: 100%;
+          background: var(--selected-theme-main-color);
+        }
+
+        &-links {
+          color: var(--selected-theme-main-color);
+          text-decoration: none;
+          text-transform: capitalize;
+          padding: 0.5rem 1rem;
+          font-weight: 700;
+        }
+      }
+
+      &-item:last-child{
+        margin: 0;
+      }
+    }
+  }  
+}
+
+.navbar-icon {
+  display: none;
+}
+
+@media only screen and (max-width:768px) {
+  .navbar-container-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    opacity: 0;
+    left: -110%;
+    transition: all 0.5s ease;
+
+    &.active {
+      background: #181818;
+      left: 0;
+      opacity: 1;
+      z-index: 1;
+      transition: all 0.5s ease;
+    }
+  }
+
+  .navbar-container-menu-item {
+    border-bottom: 2px solid #282828;
+    margin: 0;
+    padding: 20px 0;
+
+    &::after {
+      height:0;
+    }
+
+    &-links {
+      transition: all 0.4s ease;
+      font-size: 20px;
+    }
+
+    &-links:hover {
+      color: aquamarine;
+      opacity: 0.5;
+      transition: all 0.4s ease-in;
+    }
+  }
+
+  .navbar-icon {
+    display: block;
+    cursor: pointer;
+    color: var(--selected-theme-main-color);
+  }
+}
