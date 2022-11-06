@@ -1,0 +1,102 @@
+.home {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  &-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      color: var(--selected-theme-main-color);
+      margin: 0;
+      font-family: var(--font-mono);
+      font-weight: 600;
+      font-size: 8rem;
+      line-height: 10rem;
+      position: relative;
+      overflow: hidden;
+      white-space: nowrap;
+      animation: typingEffect 2.5s steps(30, end);
+    }
+  }
+
+  .contact-me {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+
+    &-buttons-wrapper {
+      display: flex;
+      gap: 10px;
+      button, a {
+        cursor: pointer;
+        margin-right: 10px;
+        padding: 10px 70px;
+        font-size: 2rem;
+        background: transparent;
+        color: var(--selected-theme-main-color);
+        border: 1.5px solid var(--selected-theme-main-color);
+        border-radius: 5px;
+        font-family:  var(--font-special);
+        font-weight: 700;
+        text-transform: capitalize;
+        transition: all 0.5s ease;
+
+        &:hover {
+          color: var(--selected-theme-background-color);
+          background: var(--selected-theme-main-color);
+          transition: all 0.5s ease;
+        }
+      }
+    }
+
+    &-socials-wrapper {
+      display: flex;
+      gap: 10px;
+      margin-top: 5px;
+
+      svg {
+        color: var(--selected-theme-main-color);
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .home-text-wrapper h1 {
+    font-size: 2.3rem;
+    line-height: 5rem;
+  }
+}
+
+@media only screen and (min-width: 551px) and (max-width: 768px) {
+  .home-text-wrapper h1 {
+    font-size: 3.4rem;
+    line-height: 6rem;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 990px) {
+  .home-text-wrapper h1 {
+    font-size: 5rem;
+    line-height: 8rem;
+  }
+}
+
+@keyframes typingEffect {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
