@@ -50,28 +50,28 @@ const Home = () => {
               <FaGithub size={32} />
             </a>
             <a
-              href="https://www.linkedin.com/normanlinn"
+              href="https://www.linkedin.com/in/zawlinnaing/"
               target="_blank"
               rel="noreferrer"
             >
               <FaLinkedin size={32} />
             </a>
             <a
-              href="https://www.facebook.com/normanlinn"
+              href="https://www.facebook.com/mrnormanlinn"
               target="_blank"
               rel="noreferrer"
             >
               <FaFacebook size={32} />
             </a>
             <a
-              href="https://www.instagram.com/normanlinn"
+              href="https://www.instagram.com/_normanlynn_"
               target="_blank"
               rel="noreferrer"
             >
               <FaInstagram size={32} />
             </a>
             <a
-              href="https://www.twitter.com/normanlinn"
+              href="https://www.twitter.com/zawlinnaing_"
               target="_blank"
               rel="noreferrer"
             >

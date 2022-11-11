@@ -9,7 +9,8 @@ import Resume from "./containers/resume";
 import Portfolio from "./containers/portfolio";
 import Contact from "./containers/contact";
 import NavBar from "./components/NavBar";
-import { particleConfig } from "./particlesConfig";
+import { particleConfig } from "./helpers/particlesConfig";
+import Theme from "./components/Theme";
 
 function App() {
   const particlesInit = async (main) => {
@@ -35,6 +36,7 @@ function App() {
       </div>
       {/* Main Page Content */}
       <div className="App-main-content-wrapper">
+        <Theme />
         <Routes>
           {/* Create all Routes */}
           <Route path="/" index element={<Home />} />

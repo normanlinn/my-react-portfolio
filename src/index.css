@@ -11,13 +11,37 @@
 
   /* Primary Color - Yellow */
   --yellow-theme-background-color: #242423; /* #1d1d1d */
-  --yellow-theme-main-color: #f5cb5c; /* #ffdd40 */
+  --yellow-theme-main-color: #f5cb5c; /* #ffdd40 #f5cb5c */
   --yellow-theme-sub-text-color: #e8eddf; /* #ffffff */
   --yellow-theme-nav-background-color: #181818; /* #181818 */
 
   --font-base: "DM Sans", sans-serif;
   --font-mono: "DM mono", monospace;
   --font-special: "Inter", sans-serif;
+
+  /* Color - white */
+  --white-theme-background-color: #242423;
+  --white-theme-main-color: #f4f1de;
+  --white-theme-sub-text-color: #e8eddf;
+  --white-theme-nav-background-color: #181818;
+
+  /* Secondary Color - Red */
+  --red-theme-background-color: #242423;
+  --red-theme-main-color: #ef233c;
+  --red-theme-sub-text-color: #e8eddf;
+  --red-theme-nav-background-color: #181818;
+
+  /* Secondary Color - Green */
+  --green-theme-background-color: #242423;
+  --green-theme-main-color: #6ac045;
+  --green-theme-sub-text-color: #e8eddf;
+  --green-theme-nav-background-color: #181818;
+
+  /* Secondary Color - Blue */
+  --blue-theme-background-color: #242423;
+  --blue-theme-main-color: #5078ff;
+  --blue-theme-sub-text-color: #e8eddf;
+  --blue-theme-nav-background-color: #181818;
 }
 
 /* reset CSS */
