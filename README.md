@@ -1,3 +1,10 @@
+# In this portfolio:
+- React
+- SCSS/ Sass
+- React Router
+- React Simple Animate
+- TS particles
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
