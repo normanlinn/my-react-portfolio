@@ -6,6 +6,10 @@ import "./style.scss";
 
 const colorsArr = [
   {
+    id: "white",
+    bgColor: "#f4f1de",
+  },
+  {
     id: "yellow",
     bgColor: "#f5cb5c",
   },
@@ -21,14 +25,10 @@ const colorsArr = [
     id: "blue",
     bgColor: "#5078ff",
   },
-  {
-    id: "white",
-    bgColor: "#f4f1de",
-  },
 ];
 
 const Theme = () => {
-  const [theme, setTheme] = useState("yellow");
+  const [theme, setTheme] = useState("white");
   const [toggle, setToggle] = useState(false);
 
   const handleToggleTheme = (id) => {
