@@ -5,7 +5,7 @@
   right: -180px;
   z-index: 1000;
   border: 1px solid #d5d5d5;
-  background-color:var(--selected-theme-background-color);
+  background-color: var(--selected-theme-background-color);
   transition: all 1s ease;
 
   &.active {
@@ -23,7 +23,6 @@
     border-right: none;
     cursor: pointer;
 
-
     svg {
       animation-name: spin;
       animation-duration: 2s;
@@ -40,10 +39,9 @@
     h4 {
       font-size: 16px;
       font-weight: 700;
-      text-transform: capitalize; 
+      text-transform: capitalize;
       color: #f4f1de;
       margin-bottom: 16px;
-
     }
 
     ul {
@@ -57,8 +55,6 @@
         cursor: pointer;
       }
     }
-    
-    
   }
 }
 

@@ -1,0 +1,101 @@
+.portfolio {
+  &-content {
+    padding: 20px;
+    width: 100%;
+
+    &-filter {
+      display: inline-block;
+      margin: 0 auto;
+      border-radius: 25px;
+      border: 1px solid var(--selected-theme-main-color);
+      line-height: 0;
+      text-align: center;
+
+      li {
+        font-family: var(--font-base);
+        font-size: 16px;
+        font-weight: 700;
+        display: inline-block;
+        cursor: pointer;
+        color: var(--selected-theme-main-color);
+        text-transform: uppercase;
+        padding: 20px;
+        transition: all 0.4s ease;
+      }
+    }
+
+    &-cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 10px;
+
+      .cards-item {
+        height: 302px;
+        cursor: pointer;
+        position: relative;
+
+        &:hover .overlay {
+          opacity: 1;
+          border-radius: 5px;
+        }
+
+        &-img-wrapper {
+          height: 100%;
+
+          a {
+            height: 100%;
+            img {
+              height: inherit;
+              object-fit: cover;
+              width: 100%;
+              border-radius: 5px;
+            }
+          }
+        }
+
+        .overlay {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          width: 100%;
+          height: 100%;
+          opacity: 0;
+          transition: 0.5s ease;
+
+          background-color: var(--selected-theme-main-color);
+
+          div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+
+            p {
+              color: var(--selected-theme-sub-text-color);
+              margin: 0;
+              font-weight: 500;
+              font-size: 4rem;
+              position: relative;
+            }
+
+            button {
+              cursor: pointer;
+              margin-top: 15px;
+              padding-top: 10px 70px;
+              font-size: 2rem;
+              background: transparent;
+              color: var(--selected-theme-sub-text-color);
+              border: 1.5px solid var(--selected-theme-main-color);
+              border-radius: 10px;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+  }
+}
