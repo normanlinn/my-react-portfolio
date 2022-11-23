@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a4c2aa28.css",
+    "main.js": "/static/js/main.3bcd76c7.js",
+    "static/media/netflix-clone-react-prj.png": "/static/media/netflix-clone-react-prj.f0634ca82aae949160f6.png",
+    "static/media/covid-19-tracker-prj.png": "/static/media/covid-19-tracker-prj.0390d46c9b2e1ce38659.png",
+    "index.html": "/index.html",
+    "main.a4c2aa28.css.map": "/static/css/main.a4c2aa28.css.map",
+    "main.3bcd76c7.js.map": "/static/js/main.3bcd76c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4c2aa28.css",
+    "static/js/main.3bcd76c7.js"
+  ]
+}
