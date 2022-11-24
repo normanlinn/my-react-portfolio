@@ -6,7 +6,7 @@
 - TS particles
 
 # Preview Portfolio
-![preview](https://github.com/normanlinn/my-react-portfolio/tree/main/src/images/preview_portfolio.png?raw=true)
+![preview](https://github.com/normanlinn/my-react-portfolio/tree/main/src/images/preview_portfolio.png)
 
 # Getting Started with Create React App
 
