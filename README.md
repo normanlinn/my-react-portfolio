@@ -5,6 +5,9 @@
 - React Simple Animate
 - TS particles
 
+# Preview Portfolio
+![preview](https://github.com/normanlinn/my-react-portfolio/tree/main/src/images/preview_portfolio.png?raw=true)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
