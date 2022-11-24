@@ -18,7 +18,8 @@ function App() {
   };
 
   const location = useLocation();
-  const renderParticlesJSInHomePage = location.pathname === "/";
+  const renderParticlesJSInHomePage =
+    location.pathname === "/" || "/my-react-portfolio/";
 
   return (
     <div className="App">
@@ -39,7 +40,8 @@ function App() {
         <Theme />
         <Routes>
           {/* Create all Routes */}
-          <Route path="/" index element={<Home />} />
+          <Route path="/my-react-portfolio" index element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/resume" element={<Resume />} />
