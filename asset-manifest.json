@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/my-react-portfolio/static/css/main.169c9e24.css",
-    "main.js": "/my-react-portfolio/static/js/main.94993164.js",
-    "static/media/netflix-clone-react-prj.png": "/my-react-portfolio/static/media/netflix-clone-react-prj.f0634ca82aae949160f6.png",
-    "static/media/covid-19-tracker-prj.png": "/my-react-portfolio/static/media/covid-19-tracker-prj.0390d46c9b2e1ce38659.png",
-    "index.html": "/my-react-portfolio/index.html",
-    "main.169c9e24.css.map": "/my-react-portfolio/static/css/main.169c9e24.css.map",
-    "main.94993164.js.map": "/my-react-portfolio/static/js/main.94993164.js.map"
+    "main.css": "/static/css/main.169c9e24.css",
+    "main.js": "/static/js/main.868849d9.js",
+    "static/media/netflix-clone-react-prj.png": "/static/media/netflix-clone-react-prj.f0634ca82aae949160f6.png",
+    "static/media/covid-19-tracker-prj.png": "/static/media/covid-19-tracker-prj.0390d46c9b2e1ce38659.png",
+    "index.html": "/index.html",
+    "main.169c9e24.css.map": "/static/css/main.169c9e24.css.map",
+    "main.868849d9.js.map": "/static/js/main.868849d9.js.map"
   },
   "entrypoints": [
     "static/css/main.169c9e24.css",
-    "static/js/main.94993164.js"
+    "static/js/main.868849d9.js"
   ]
 }
