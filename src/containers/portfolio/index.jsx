@@ -16,8 +16,6 @@ const Portfolio = () => {
     filterValue === 1
       ? portfolioData
       : portfolioData.filter((item) => item.sectionId === filterValue);
-
-  console.log(filterValue);
   return (
     <section id="portfolio" className="portfolio">
       <PageHeaderContent
@@ -27,7 +25,11 @@ const Portfolio = () => {
       <div className="portfolio-content">
         <ul className="portfolio-content-filter">
           {filterOptions.map((option) => (
-            <li onClick={() => handleFilter(option.id)} key={option.id}>
+            <li
+              onClick={() => handleFilter(option.id)}
+              key={option.id}
+              className={option.id === filterValue ? "active" : ""}
+            >
               {option.label}
             </li>
           ))}
@@ -50,7 +52,7 @@ const Portfolio = () => {
               <div className="overlay">
                 {hoveredIndexValue === key && (
                   <div>
-                    <p>{item.projectName}</p>
+                    <p>{item.prjName}</p>
                     <button>visit</button>
                   </div>
                 )}
